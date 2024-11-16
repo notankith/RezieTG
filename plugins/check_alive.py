@@ -6,7 +6,7 @@ CMD = ["/", "."]
 
 @Client.on_message(filters.command("alive", CMD))
 async def check_alive(_, message):
-    await message.reply_text("Bot Alive :) 𝖧𝗂𝗍 /start \n\nUse /help 𝖥𝗈𝗋 𝖧𝖾𝗅𝗉 ;)\n\Use /ping 𝖳𝗈 𝖢𝗁𝖾𝖼𝗄 𝖡𝗈𝗍 𝖯𝗂𝗇𝗀 ;) ")
+    await message.reply_text("Bot Alive :) 𝖧𝗂𝗍 /start \n\nUse /help 𝖥𝗈𝗋 𝖧𝖾𝗅𝗉 ;)\n\nUse /ping 𝖳𝗈 𝖢𝗁𝖾𝖼𝗄 𝖡𝗈𝗍 𝖯𝗂𝗇𝗀 ;) ")
 
 @Client.on_message(filters.command("help", CMD))
 async def help(_, message):
